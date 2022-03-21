@@ -8,6 +8,7 @@ namespace _1911066057_HoangHaiHa_BigSchool.Migrations
         public override void Up()
         {
             Sql("INSERT INTO CATEGORIES ");
+
         }
         
         public override void Down()
