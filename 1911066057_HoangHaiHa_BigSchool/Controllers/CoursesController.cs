@@ -17,7 +17,7 @@ namespace _1911066057_HoangHaiHa_BigSchool.Controllers
             _dbContext = new ApplicationDbContext();
         }
         // GET: Courses
-        
+
         [Authorize]
         public ActionResult Create()
         {
