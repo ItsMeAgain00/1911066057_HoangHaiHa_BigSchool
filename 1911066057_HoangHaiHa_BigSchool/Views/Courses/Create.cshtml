@@ -1,0 +1,14 @@
+﻿@model _1911066057_HoangHaiHa_BigSchool.Models.Course
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create</h2>
+<form>
+    <div class=" form-group">
+        @Html.LabelFor(m=>m.Place)
+        @Html.TextBoxFor(m=>m.Place, new {@class="form-control"})
+    </div>
+</form>
+
