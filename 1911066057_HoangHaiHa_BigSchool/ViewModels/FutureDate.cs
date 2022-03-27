@@ -17,6 +17,7 @@ namespace _1911066057_HoangHaiHa_BigSchool.ViewModels
                 CultureInfo.CurrentCulture,
                 DateTimeStyles.None,
                 out dateTime);
+
             return (isValid && dateTime > DateTime.Now);
         }
     }
